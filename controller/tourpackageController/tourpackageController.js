@@ -1,5 +1,5 @@
-const TourPackage = require("../models/TourPackage")
-const Booking = require("../models/Booking")
+const TourPackage = require("../../models/TourPackage");
+const Booking = require("../../models/Booking");
 // create package
 exports.createpackage = async (req,res)=>{
     try{

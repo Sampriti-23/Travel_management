@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const tourpackageController = require("../../tourpackageController/tourpackageController")
+const tourpackageController = require("../../controller/tourpackageController/tourpackageController")
 
 //create package
 router.post("/createpackage",tourpackageController.createpackage);

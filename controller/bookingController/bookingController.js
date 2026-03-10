@@ -1,8 +1,8 @@
-const Booking = require("../models/Booking");
-const Room = require("../models/Room");
-const Hotel = require("../models/Hotel");
-const User = require("../models/User");
-const TourPackage = require("../models/TourPackage")
+const Booking = require("../../models/Booking");
+const Room = require("../../models/Room");
+const Hotel = require("../../models/Hotel");
+const User = require("../../models/User");
+const TourPackage = require("../../models/TourPackage")
 
 //create booking 
 exports.createbooking = async(req,res)=>{
